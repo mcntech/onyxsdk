@@ -1,0 +1,1592 @@
+// !$*UTF8*$!
+{
+	7C0C2D2312F7CED900D143EA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7C0C2F9112F80C1A00D143EA /* JdAwsS3SessionTest */;
+		activeTarget = 7C0C2F8E12F80C1A00D143EA /* JdAwsS3SessionTest */;
+		addToTargets = (
+			7C0C2F8E12F80C1A00D143EA /* JdAwsS3SessionTest */,
+		);
+		breakpoints = (
+			7C0C34F812FC27AB00D143EA /* malloc_error_break */,
+			7C0C3B9C12FD59BF00D143EA /* httpparser.c:434 */,
+			7C709AAE13000BBA0087E29D /* httpreadwrite.c:953 */,
+			7C709AB813000C5B0087E29D /* JdUpnpWebFileDownloadJob.cpp:133 */,
+			7C709D35130054A30087E29D /* sock.c:204 */,
+			7C709D39130054A80087E29D /* sock.c:209 */,
+			7C709D6B1300564C0087E29D /* sock.c:225 */,
+		);
+		codeSenseManager = 7C0C2D2812F7CED900D143EA /* Code sense */;
+		executables = (
+			7C0C2F9112F80C1A00D143EA /* JdAwsS3SessionTest */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					139,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					251,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					211,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319122678;
+			PBXWorkspaceStateSaveDate = 319122678;
+		};
+		perUserProjectItems = {
+			7C0C323012F98CCD00D143EA = 7C0C323012F98CCD00D143EA /* PBXTextBookmark */;
+			7C0C323212F98CCD00D143EA = 7C0C323212F98CCD00D143EA /* PBXTextBookmark */;
+			7C0C33C312FC1D3000D143EA = 7C0C33C312FC1D3000D143EA /* PBXTextBookmark */;
+			7C0C358512FC309A00D143EA = 7C0C358512FC309A00D143EA /* PBXTextBookmark */;
+			7C0C358612FC309A00D143EA = 7C0C358612FC309A00D143EA /* PBXTextBookmark */;
+			7C22C51F12FE59A2006281A6 = 7C22C51F12FE59A2006281A6 /* PBXTextBookmark */;
+			7C22C5C312FE6BA7006281A6 = 7C22C5C312FE6BA7006281A6 /* PBXTextBookmark */;
+			7C42D35A12FD88AE00BB7E7F = 7C42D35A12FD88AE00BB7E7F /* PBXTextBookmark */;
+			7C42D5AC12FDD35000BB7E7F = 7C42D5AC12FDD35000BB7E7F /* PBXTextBookmark */;
+			7C42D5AD12FDD35000BB7E7F = 7C42D5AD12FDD35000BB7E7F /* PBXTextBookmark */;
+			7C709CF3130053BA0087E29D = 7C709CF3130053BA0087E29D /* PBXTextBookmark */;
+			7C70A11E130157C50087E29D = 7C70A11E130157C50087E29D /* PBXTextBookmark */;
+			7C70A11F130157C50087E29D = 7C70A11F130157C50087E29D /* PBXTextBookmark */;
+			7C70A19C130198F40087E29D = 7C70A19C130198F40087E29D /* PBXTextBookmark */;
+			7C70A19D130198F40087E29D = 7C70A19D130198F40087E29D /* PBXTextBookmark */;
+			7C70A2511301A84C0087E29D = 7C70A2511301A84C0087E29D /* PBXTextBookmark */;
+			7C70A2521301A84C0087E29D = 7C70A2521301A84C0087E29D /* PBXTextBookmark */;
+			7CDDB4C81305607700FA99FB = 7CDDB4C81305607700FA99FB /* PBXTextBookmark */;
+			7CDDB4D91305611D00FA99FB = 7CDDB4D91305611D00FA99FB /* PBXTextBookmark */;
+			7CDDB4DD1305614700FA99FB = 7CDDB4DD1305614700FA99FB /* PBXTextBookmark */;
+			7CDDB4DE1305614700FA99FB = 7CDDB4DE1305614700FA99FB /* PBXTextBookmark */;
+			7CDDB4DF1305614700FA99FB = 7CDDB4DF1305614700FA99FB /* PBXTextBookmark */;
+			7CDDB4E01305614700FA99FB = 7CDDB4E01305614700FA99FB /* PBXTextBookmark */;
+			7CDDB4E71305615700FA99FB = 7CDDB4E71305615700FA99FB /* PBXTextBookmark */;
+			7CDDB4EC1305617900FA99FB = 7CDDB4EC1305617900FA99FB /* PBXTextBookmark */;
+			7CDDB4EF1305618F00FA99FB = 7CDDB4EF1305618F00FA99FB /* PBXTextBookmark */;
+			7CDDB4F0130561A700FA99FB = 7CDDB4F0130561A700FA99FB /* PBXTextBookmark */;
+			7CDDB4F5130561E400FA99FB = 7CDDB4F5130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB4F6130561E400FA99FB = 7CDDB4F6130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB4F7130561E400FA99FB = 7CDDB4F7130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB4FC130561E400FA99FB = 7CDDB4FC130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB4FF130561E400FA99FB = 7CDDB4FF130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB502130561E400FA99FB = 7CDDB502130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB505130561E400FA99FB = 7CDDB505130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB508130561E400FA99FB = 7CDDB508130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB50B130561E400FA99FB = 7CDDB50B130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB50E130561E400FA99FB = 7CDDB50E130561E400FA99FB /* PBXTextBookmark */;
+			7CDDB50F130561E400FA99FB = 7CDDB50F130561E400FA99FB /* PBXTextBookmark */;
+			7CDDC4FA1305691600FA99FB = 7CDDC4FA1305691600FA99FB /* PBXBookmark */;
+			7CDDC5001305696900FA99FB = 7CDDC5001305696900FA99FB /* PBXBookmark */;
+			7CDDC50F13056A9E00FA99FB = 7CDDC50F13056A9E00FA99FB /* PBXTextBookmark */;
+			7CDDC51013056A9E00FA99FB = 7CDDC51013056A9E00FA99FB /* PBXTextBookmark */;
+			7CDDC51113056A9E00FA99FB = 7CDDC51113056A9E00FA99FB /* PBXTextBookmark */;
+			7CDDC51813056A9E00FA99FB = 7CDDC51813056A9E00FA99FB /* PBXTextBookmark */;
+			7CDDC51B13056AA500FA99FB = 7CDDC51B13056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC51C13056AA500FA99FB = 7CDDC51C13056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC51F13056AA500FA99FB = 7CDDC51F13056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52213056AA500FA99FB = 7CDDC52213056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52313056AA500FA99FB = 7CDDC52313056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52413056AA500FA99FB = 7CDDC52413056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52513056AA500FA99FB = 7CDDC52513056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52613056AA500FA99FB = 7CDDC52613056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52713056AA500FA99FB = 7CDDC52713056AA500FA99FB /* PBXTextBookmark */;
+			7CDDC52A13056AB500FA99FB = 7CDDC52A13056AB500FA99FB /* PBXTextBookmark */;
+			7CDDC52B13056AB500FA99FB = 7CDDC52B13056AB500FA99FB /* PBXTextBookmark */;
+			7CDDC52C13056AB600FA99FB = 7CDDC52C13056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC52D13056AB600FA99FB = 7CDDC52D13056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC52E13056AB600FA99FB = 7CDDC52E13056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC52F13056AB600FA99FB = 7CDDC52F13056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC53013056AB600FA99FB = 7CDDC53013056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC53113056AB600FA99FB = 7CDDC53113056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC53213056AB600FA99FB = 7CDDC53213056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC53313056AB600FA99FB = 7CDDC53313056AB600FA99FB /* PBXTextBookmark */;
+			7CDDC53A13056ADF00FA99FB = 7CDDC53A13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC53B13056ADF00FA99FB = 7CDDC53B13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC53C13056ADF00FA99FB = 7CDDC53C13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC53D13056ADF00FA99FB = 7CDDC53D13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC53E13056ADF00FA99FB = 7CDDC53E13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC53F13056ADF00FA99FB = 7CDDC53F13056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC54013056ADF00FA99FB = 7CDDC54013056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC54113056ADF00FA99FB = 7CDDC54113056ADF00FA99FB /* PBXTextBookmark */;
+			7CDDC54613056B0300FA99FB = 7CDDC54613056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54713056B0300FA99FB = 7CDDC54713056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54813056B0300FA99FB = 7CDDC54813056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54913056B0300FA99FB = 7CDDC54913056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54A13056B0300FA99FB = 7CDDC54A13056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54B13056B0300FA99FB = 7CDDC54B13056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54C13056B0300FA99FB = 7CDDC54C13056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC54D13056B0300FA99FB = 7CDDC54D13056B0300FA99FB /* PBXTextBookmark */;
+			7CDDC55213056B4E00FA99FB = 7CDDC55213056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55313056B4E00FA99FB = 7CDDC55313056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55413056B4E00FA99FB = 7CDDC55413056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55513056B4E00FA99FB = 7CDDC55513056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55613056B4E00FA99FB = 7CDDC55613056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55713056B4E00FA99FB = 7CDDC55713056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55813056B4E00FA99FB = 7CDDC55813056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55913056B4E00FA99FB = 7CDDC55913056B4E00FA99FB /* PBXTextBookmark */;
+			7CDDC55A13056B6F00FA99FB = 7CDDC55A13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC55B13056B6F00FA99FB = 7CDDC55B13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC55C13056B6F00FA99FB = 7CDDC55C13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC55D13056B6F00FA99FB = 7CDDC55D13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC55E13056B6F00FA99FB = 7CDDC55E13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC55F13056B6F00FA99FB = 7CDDC55F13056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC56013056B6F00FA99FB = 7CDDC56013056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC56113056B6F00FA99FB = 7CDDC56113056B6F00FA99FB /* PBXTextBookmark */;
+			7CDDC57813056CFE00FA99FB /* XCBuildMessageTextBookmark */ = 7CDDC57813056CFE00FA99FB /* XCBuildMessageTextBookmark */;
+			7CDDC58113056D3B00FA99FB /* XCBuildMessageTextBookmark */ = 7CDDC58113056D3B00FA99FB /* XCBuildMessageTextBookmark */;
+			7CDDC58213056D3B00FA99FB /* PBXTextBookmark */ = 7CDDC58213056D3B00FA99FB /* PBXTextBookmark */;
+			7CDDC58713056D3B00FA99FB /* PBXTextBookmark */ = 7CDDC58713056D3B00FA99FB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7C0C2D2712F7CED900D143EA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7C0C2D2712F7CED900D143EA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7C0C2D2812F7CED900D143EA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7C0C2D4C12F7D45900D143EA /* JdAwsS3UpnpHttpConnection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 1274}}";
+			sepNavSelRange = "{2926, 0}";
+			sepNavVisRange = "{1444, 1559}";
+			sepNavWindowFrame = "{{197, 5}, {1083, 773}}";
+		};
+	};
+	7C0C2D4D12F7D45900D143EA /* JdAwsContext.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {855, 754}}";
+			sepNavSelRange = "{174, 22}";
+			sepNavVisRange = "{91, 1662}";
+			sepNavWindowFrame = "{{327, 4}, {914, 759}}";
+		};
+	};
+	7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {607, 3796}}";
+			sepNavSelRange = "{111, 0}";
+			sepNavVisRange = "{0, 276}";
+			sepNavWindowFrame = "{{170, 5}, {1083, 773}}";
+		};
+	};
+	7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1405, 988}}";
+			sepNavSelRange = "{1754, 46}";
+			sepNavVisRange = "{549, 1829}";
+			sepNavWindowFrame = "{{248, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2E8812F80B7900D143EA /* JdAvtClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {446, 1781}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	7C0C2E8D12F80B7900D143EA /* JdDbgOut.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 646}}";
+			sepNavSelRange = "{762, 126}";
+			sepNavVisRange = "{0, 1199}";
+			sepNavWindowFrame = "{{15, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2E8F12F80B7900D143EA /* JdDescription.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2002}}";
+			sepNavSelRange = "{541, 1}";
+			sepNavVisRange = "{23, 1299}";
+			sepNavWindowFrame = "{{75, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2E9412F80B7900D143EA /* JdIXmlUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 3926}}";
+			sepNavSelRange = "{7089, 0}";
+			sepNavVisRange = "{7570, 1530}";
+			sepNavWindowFrame = "{{15, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2E9512F80B7900D143EA /* JdLib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 646}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{0, 987}";
+			sepNavWindowFrame = "{{203, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2E9D12F80B7900D143EA /* JdUpnpWebFileDownloadJob.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 1625}}";
+			sepNavSelRange = "{3229, 13}";
+			sepNavVisRange = "{1781, 1960}";
+			sepNavWindowFrame = "{{248, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2EA012F80B7900D143EA /* JdUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 4797}}";
+			sepNavSelRange = "{5893, 76}";
+			sepNavVisRange = "{5279, 1406}";
+			sepNavWindowFrame = "{{197, 5}, {1083, 773}}";
+		};
+	};
+	7C0C2F4A12F80B7A00D143EA /* JdArrayDynamicTest.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 702}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 318}";
+		};
+	};
+	7C0C2F4E12F80B7A00D143EA /* JdIpcSocketTest.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {460, 3887}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{95, 373}";
+		};
+	};
+	7C0C2F5112F80B7A00D143EA /* JdStringTest.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {446, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	7C0C2F7412F80BCA00D143EA /* JdAvtClient.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {481, 9672}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 431}";
+		};
+	};
+	7C0C2F7812F80BCA00D143EA /* JdControlPoint.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2015}}";
+			sepNavSelRange = "{249, 0}";
+			sepNavVisRange = "{663, 1467}";
+			sepNavWindowFrame = "{{15, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F7A12F80BCA00D143EA /* JdDescription.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2366}}";
+			sepNavSelRange = "{2812, 20}";
+			sepNavVisRange = "{2745, 1560}";
+			sepNavWindowFrame = "{{15, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F8012F80BCA00D143EA /* JdLib.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 623}}";
+			sepNavSelRange = "{727, 0}";
+			sepNavVisRange = "{0, 1001}";
+			sepNavWindowFrame = "{{15, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F8512F80BCA00D143EA /* JdServiceBase.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 6812}}";
+			sepNavSelRange = "{600, 0}";
+			sepNavVisRange = "{301, 1478}";
+			sepNavWindowFrame = "{{248, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F8712F80BCA00D143EA /* JdUpnpWebFileDownloadJob.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2756}}";
+			sepNavSelRange = "{1024, 25}";
+			sepNavVisRange = "{2192, 1610}";
+			sepNavWindowFrame = "{{125, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F8912F80BCA00D143EA /* JdUpnpWebFileServer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 4511}}";
+			sepNavSelRange = "{847, 0}";
+			sepNavVisRange = "{34, 1219}";
+			sepNavWindowFrame = "{{202, 4}, {1032, 774}}";
+		};
+	};
+	7C0C2F8A12F80BCA00D143EA /* JdUtil.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 7371}}";
+			sepNavSelRange = "{12668, 0}";
+			sepNavVisRange = "{11714, 1195}";
+			sepNavWindowFrame = "{{197, 5}, {1083, 773}}";
+		};
+	};
+	7C0C2F8E12F80C1A00D143EA /* JdAwsS3SessionTest */ = {
+		activeExec = 0;
+		executables = (
+			7C0C2F9112F80C1A00D143EA /* JdAwsS3SessionTest */,
+		);
+	};
+	7C0C2F9112F80C1A00D143EA /* JdAwsS3SessionTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = JdAwsS3SessionTest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7C0C301212F80EEA00D143EA /* LinkedList.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 3718}}";
+			sepNavSelRange = "{4702, 0}";
+			sepNavVisRange = "{4702, 244}";
+		};
+	};
+	7C0C301312F80EEA00D143EA /* ThreadPool.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {841, 15795}}";
+			sepNavSelRange = "{7657, 15}";
+			sepNavVisRange = "{7479, 366}";
+			sepNavWindowFrame = "{{248, 4}, {1032, 774}}";
+		};
+	};
+	7C0C301712F80EEA00D143EA /* Callback.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 2067}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{190, 653}";
+		};
+	};
+	7C0C303C12F80EEA00D143EA /* upnpapi.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {855, 51909}}";
+			sepNavSelRange = "{14436, 0}";
+			sepNavVisRange = "{13828, 997}";
+			sepNavWindowFrame = "{{305, -266}, {914, 759}}";
+		};
+	};
+	7C0C304C12F80EEA00D143EA /* httpparser.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 27950}}";
+			sepNavSelRange = "{46948, 0}";
+			sepNavVisRange = "{46691, 737}";
+			sepNavWindowFrame = "{{349, 4}, {1032, 774}}";
+		};
+	};
+	7C0C304D12F80EEA00D143EA /* httpreadwrite.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 24349}}";
+			sepNavSelRange = "{55191, 0}";
+			sepNavVisRange = "{45178, 1500}";
+			sepNavWindowFrame = "{{82, 5}, {1083, 773}}";
+		};
+	};
+	7C0C305112F80EEA00D143EA /* sock.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 3770}}";
+			sepNavSelRange = "{2534, 0}";
+			sepNavVisRange = "{3751, 1130}";
+		};
+	};
+	7C0C306512F80EEA00D143EA /* httpparser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {855, 6695}}";
+			sepNavSelRange = "{16181, 0}";
+			sepNavVisRange = "{1946, 1055}";
+			sepNavWindowFrame = "{{228, 19}, {914, 759}}";
+		};
+	};
+	7C0C309012F80EEB00D143EA /* win_dll.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {467, 234}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	7C0C323012F98CCD00D143EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C309012F80EEB00D143EA /* win_dll.c */;
+		name = "win_dll.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	7C0C323212F98CCD00D143EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 1";
+		rLen = 97;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 0;
+	};
+	7C0C33C312FC1D3000D143EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2E8812F80B7900D143EA /* JdAvtClient.h */;
+		name = "JdAvtClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	7C0C34F812FC27AB00D143EA /* malloc_error_break */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libSystem.B.dylib;
+		modificationTime = 318879606.350332;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = malloc_error_break;
+	};
+	7C0C358512FC309A00D143EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2F8A12F80BCA00D143EA /* JdUtil.cpp */;
+		name = "JdUtil.cpp: 95";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 2617;
+	};
+	7C0C358612FC309A00D143EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C301212F80EEA00D143EA /* LinkedList.c */;
+		name = "LinkedList.c: 193";
+		rLen = 0;
+		rLoc = 4702;
+		rType = 0;
+		vrLen = 244;
+		vrLoc = 4702;
+	};
+	7C0C3B9C12FD59BF00D143EA /* httpparser.c:434 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C304C12F80EEA00D143EA /* httpparser.c */;
+		functionName = "httpmsg_destroy()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 434;
+		location = Jade;
+		modificationTime = 318879606.3497831;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C22C51F12FE59A2006281A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2F4E12F80B7A00D143EA /* JdIpcSocketTest.cpp */;
+		name = "JdIpcSocketTest.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 95;
+	};
+	7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 7007}}";
+			sepNavSelRange = "{18778, 0}";
+			sepNavVisRange = "{18463, 1631}";
+			sepNavWindowFrame = "{{242, 4}, {1032, 774}}";
+		};
+	};
+	7C22C5C312FE6BA7006281A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C306512F80EEA00D143EA /* httpparser.h */;
+		name = "httpparser.h: 484";
+		rLen = 9;
+		rLoc = 15907;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 15493;
+	};
+	7C42D35A12FD88AE00BB7E7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C301712F80EEA00D143EA /* Callback.h */;
+		name = "Callback.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 190;
+	};
+	7C42D5AC12FDD35000BB7E7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2F5112F80B7A00D143EA /* JdStringTest.cpp */;
+		name = "JdStringTest.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	7C42D5AD12FDD35000BB7E7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2F4A12F80B7A00D143EA /* JdArrayDynamicTest.cpp */;
+		name = "JdArrayDynamicTest.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 0;
+	};
+	7C7097E412FFE6910087E29D /* JdLinkedList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2834}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{2991, 1566}";
+			sepNavWindowFrame = "{{169, 4}, {1032, 774}}";
+		};
+	};
+	7C7097E512FFE6A10087E29D /* JdLinkedList.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2652}}";
+			sepNavSelRange = "{2136, 0}";
+			sepNavVisRange = "{1756, 961}";
+			sepNavWindowFrame = "{{325, -11}, {1032, 774}}";
+		};
+	};
+	7C709AAE13000BBA0087E29D /* httpreadwrite.c:953 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C304D12F80EEA00D143EA /* httpreadwrite.c */;
+		functionName = "Check_Connect_And_Wait_Connection()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 953;
+		location = JdAwsS3Session;
+		modificationTime = 318879606.349828;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C709AB813000C5B0087E29D /* JdUpnpWebFileDownloadJob.cpp:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C2F8712F80BCA00D143EA /* JdUpnpWebFileDownloadJob.cpp */;
+		functionName = "CJdUpnpWebFileDownloadJob::operator()()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = JdAwsS3Session;
+		modificationTime = 318879606.349971;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C709CF3130053BA0087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C301312F80EEA00D143EA /* ThreadPool.c */;
+		name = "ThreadPool.c: 331";
+		rLen = 15;
+		rLoc = 7657;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 7479;
+	};
+	7C709D35130054A30087E29D /* sock.c:204 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C305112F80EEA00D143EA /* sock.c */;
+		functionName = "sock_read_write()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 204;
+		location = JdAwsS3Session;
+		modificationTime = 318879606.350016;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C709D39130054A80087E29D /* sock.c:209 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C305112F80EEA00D143EA /* sock.c */;
+		functionName = "sock_read_write()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 209;
+		location = JdAwsS3Session;
+		modificationTime = 318879606.350099;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C709D6B1300564C0087E29D /* sock.c:225 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7C0C305112F80EEA00D143EA /* sock.c */;
+		functionName = "sock_read_write()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 225;
+		location = JdAwsS3Session;
+		modificationTime = 318879606.350176;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7C70A0C5130154BC0087E29D /* JdAwsS3.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 624}}";
+			sepNavSelRange = "{1260, 0}";
+			sepNavVisRange = "{0, 1432}";
+		};
+	};
+	7C70A0EC1301562F0087E29D /* JdAwsS3Request.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 1430}}";
+			sepNavSelRange = "{1679, 0}";
+			sepNavVisRange = "{968, 2077}";
+		};
+	};
+	7C70A0F41301568D0087E29D /* JdAwsS3.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2457}}";
+			sepNavSelRange = "{4696, 0}";
+			sepNavVisRange = "{2428, 1676}";
+		};
+	};
+	7C70A11E130157C50087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C304C12F80EEA00D143EA /* httpparser.c */;
+		name = "httpparser.c: 1583";
+		rLen = 0;
+		rLoc = 46948;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 46691;
+	};
+	7C70A11F130157C50087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C70A0C5130154BC0087E29D /* JdAwsS3.h */;
+		name = "JdAwsS3.h: 32";
+		rLen = 0;
+		rLoc = 1432;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	7C70A19C130198F40087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4C12F7D45900D143EA /* JdAwsS3UpnpHttpConnection.h */;
+		name = "JdAwsS3UpnpHttpConnection.h: 64";
+		rLen = 0;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 1042;
+	};
+	7C70A19D130198F40087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4D12F7D45900D143EA /* JdAwsContext.h */;
+		name = "JdAwsContext.h: 6";
+		rLen = 57;
+		rLoc = 93;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	7C70A2511301A84C0087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 204";
+		rLen = 0;
+		rLoc = 9167;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 3164;
+	};
+	7C70A2521301A84C0087E29D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 41;
+	};
+	7CDDB4C81305607700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected unqualified-id before '{' token";
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		rLen = 1;
+		rLoc = 510;
+		rType = 1;
+	};
+	7CDDB4D91305611D00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'strnicmp' was not declared in this scope";
+		rLen = 1;
+		rLoc = 287;
+		rType = 1;
+	};
+	7CDDB4DD1305614700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 0;
+	};
+	7CDDB4DE1305614700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 511";
+		rLen = 0;
+		rLoc = 20045;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 18733;
+	};
+	7CDDB4DF1305614700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'strnicmp' was not declared in this scope";
+		rLen = 1;
+		rLoc = 287;
+		rType = 1;
+	};
+	7CDDB4E01305614700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 283";
+		rLen = 0;
+		rLoc = 5946;
+		rType = 0;
+		vrLen = 583;
+		vrLoc = 5717;
+	};
+	7CDDB4E71305615700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		rLen = 8;
+		rLoc = 5942;
+		rType = 0;
+	};
+	7CDDB4EC1305617900FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Passing argument 1 of 'SSL_CTX_new' discards qualifiers from pointer target type";
+		fRef = 7C0C303C12F80EEA00D143EA /* upnpapi.c */;
+		rLen = 1;
+		rLoc = 542;
+		rType = 1;
+	};
+	7CDDB4EF1305618F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Format '%u' expects type 'unsigned int', but argument 4 has type 'long unsigned int'";
+		rLen = 1;
+		rLoc = 115;
+		rType = 1;
+	};
+	7CDDB4F0130561A700FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Backslash and newline separated by space";
+		rLen = 1;
+		rLoc = 81;
+		rType = 1;
+	};
+	7CDDB4F5130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 1";
+		rLen = 97;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 101;
+	};
+	7CDDB4F6130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Upnp/upnpconfig.h: No such file or directory";
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	7CDDB4F7130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDB4FC130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpSrv.cpp: 115";
+		rLen = 0;
+		rLoc = 2964;
+		rType = 0;
+		vrLen = 1738;
+		vrLoc = 1387;
+	};
+	7CDDB4FF130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDB502130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C303C12F80EEA00D143EA /* upnpapi.c */;
+		name = "upnpapi.c: 543";
+		rLen = 0;
+		rLoc = 14436;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 13828;
+	};
+	7CDDB505130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDB508130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDB50B130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1402;
+		vrLoc = 18728;
+	};
+	7CDDB50E130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		rLen = 1;
+		rLoc = 60;
+		rType = 1;
+	};
+	7CDDB50F130561E400FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC4FA1305691600FA99FB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+	};
+	7CDDC5001305696900FA99FB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+	};
+	7CDDC50F13056A9E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 288";
+		rLen = 0;
+		rLoc = 5946;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 5795;
+	};
+	7CDDC51013056A9E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Backslash and newline separated by space";
+		rLen = 1;
+		rLoc = 81;
+		rType = 1;
+	};
+	7CDDC51113056A9E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpSrv.cpp: 82";
+		rLen = 0;
+		rLoc = 1630;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 1387;
+	};
+	7CDDC51813056A9E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 226";
+		rLen = 8;
+		rLoc = 5942;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 5735;
+	};
+	7CDDC51B13056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC51C13056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC51F13056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 28";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 276;
+	};
+	7CDDC52213056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 119";
+		rLen = 1;
+		rLoc = 3822;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 3319;
+	};
+	7CDDC52313056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC52413056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC52513056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC52613056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC52713056AA500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC52A13056AB500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpSrv.cpp: 82";
+		rLen = 0;
+		rLoc = 1630;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 1387;
+	};
+	7CDDC52B13056AB500FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 226";
+		rLen = 8;
+		rLoc = 5942;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 5735;
+	};
+	7CDDC52C13056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC52D13056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 211";
+		rLen = 0;
+		rLoc = 4557;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 358;
+	};
+	7CDDC52E13056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 119";
+		rLen = 1;
+		rLoc = 3822;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 3319;
+	};
+	7CDDC52F13056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC53013056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC53113056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC53213056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC53313056AB600FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC53A13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC53B13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 51";
+		rLen = 0;
+		rLoc = 851;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 358;
+	};
+	7CDDC53C13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 119";
+		rLen = 1;
+		rLoc = 3822;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 3319;
+	};
+	7CDDC53D13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC53E13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC53F13056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC54013056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC54113056ADF00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC54613056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC54713056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 227";
+		rLen = 0;
+		rLoc = 5050;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 4287;
+	};
+	7CDDC54813056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 119";
+		rLen = 1;
+		rLoc = 3822;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 3319;
+	};
+	7CDDC54913056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC54A13056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC54B13056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC54C13056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC54D13056B0300FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC55213056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC55313056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 63";
+		rLen = 0;
+		rLoc = 2296;
+		rType = 0;
+		vrLen = 1464;
+		vrLoc = 2002;
+	};
+	7CDDC55413056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 227";
+		rLen = 0;
+		rLoc = 5050;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 4287;
+	};
+	7CDDC55513056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC55613056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC55713056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC55813056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC55913056B4E00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC55A13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */;
+		name = "JdAwsS3UpnpHttpConnection.cpp: 8";
+		rLen = 0;
+		rLoc = 111;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	7CDDC55B13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.h: 63";
+		rLen = 0;
+		rLoc = 2293;
+		rType = 0;
+		vrLen = 1465;
+		vrLoc = 2002;
+	};
+	7CDDC55C13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSock.cpp: 227";
+		rLen = 0;
+		rLoc = 5050;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 4287;
+	};
+	7CDDC55D13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdSdp.h: 116";
+		rLen = 101;
+		rLoc = 2412;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 1863;
+	};
+	7CDDC55E13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "JdHttpLiveClnt.cpp: 270";
+		rLen = 0;
+		rLoc = 5690;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 5768;
+	};
+	7CDDC55F13056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2EA012F80B7900D143EA /* JdUtil.h */;
+		name = "JdUtil.h: 224";
+		rLen = 76;
+		rLoc = 5893;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 5279;
+	};
+	7CDDC56013056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18676;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 18611;
+	};
+	7CDDC56113056B6F00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */;
+		name = "JdAwsContext.cpp: 61";
+		rLen = 46;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 549;
+	};
+	7CDDC57813056CFE00FA99FB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected unqualified-id before '{' token";
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 509;
+		rType = 1;
+	};
+	7CDDC58113056D3B00FA99FB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected unqualified-id before '{' token";
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 509;
+		rType = 1;
+	};
+	7CDDC58213056D3B00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 510";
+		rLen = 0;
+		rLoc = 20088;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 20000;
+	};
+	7CDDC58713056D3B00FA99FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */;
+		name = "JdAwsS3UpnpHttpConnectionTest.cpp: 474";
+		rLen = 0;
+		rLoc = 18778;
+		rType = 0;
+		vrLen = 1631;
+		vrLoc = 18463;
+	};
+}

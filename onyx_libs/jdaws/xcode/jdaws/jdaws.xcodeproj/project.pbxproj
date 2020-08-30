@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0C2F9712F80C4300D143EA /* JdAwsS3UpnpHttpConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */; };
+		7C0C2F9812F80C4300D143EA /* JdAwsContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */; };
+		7C0C2FB312F80C5B00D143EA /* JdAvtClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7412F80BCA00D143EA /* JdAvtClient.cpp */; };
+		7C0C2FB412F80C5B00D143EA /* JdAvTransService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7512F80BCA00D143EA /* JdAvTransService.cpp */; };
+		7C0C2FB512F80C5B00D143EA /* JdConnMgrService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7612F80BCA00D143EA /* JdConnMgrService.cpp */; };
+		7C0C2FB612F80C5B00D143EA /* JdConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7712F80BCA00D143EA /* JdConstants.cpp */; };
+		7C0C2FB712F80C5B00D143EA /* JdControlPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7812F80BCA00D143EA /* JdControlPoint.cpp */; };
+		7C0C2FB812F80C5B00D143EA /* JdDecoderIf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7912F80BCA00D143EA /* JdDecoderIf.cpp */; };
+		7C0C2FB912F80C5B00D143EA /* JdDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7A12F80BCA00D143EA /* JdDescription.cpp */; };
+		7C0C2FBA12F80C5B00D143EA /* JdDeviceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7B12F80BCA00D143EA /* JdDeviceBase.cpp */; };
+		7C0C2FBB12F80C5B00D143EA /* JdDeviceRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7C12F80BCA00D143EA /* JdDeviceRoot.cpp */; };
+		7C0C2FBC12F80C5B00D143EA /* JdEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7D12F80BCA00D143EA /* JdEvent.cpp */; };
+		7C0C2FBD12F80C5B00D143EA /* JdIpcSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7E12F80BCA00D143EA /* JdIpcSocket.cpp */; };
+		7C0C2FBE12F80C5B00D143EA /* JdIXmlUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F7F12F80BCA00D143EA /* JdIXmlUtil.cpp */; };
+		7C0C2FBF12F80C5B00D143EA /* JdLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8012F80BCA00D143EA /* JdLib.cpp */; };
+		7C0C2FC012F80C5B00D143EA /* JdMimeTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8112F80BCA00D143EA /* JdMimeTypes.cpp */; };
+		7C0C2FC112F80C5B00D143EA /* JdPluginIf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8212F80BCA00D143EA /* JdPluginIf.cpp */; };
+		7C0C2FC212F80C5B00D143EA /* JdRcClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8312F80BCA00D143EA /* JdRcClient.cpp */; };
+		7C0C2FC312F80C5B00D143EA /* JdRenderCtlService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8412F80BCA00D143EA /* JdRenderCtlService.cpp */; };
+		7C0C2FC412F80C5B00D143EA /* JdServiceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8512F80BCA00D143EA /* JdServiceBase.cpp */; };
+		7C0C2FC512F80C5B00D143EA /* JdUpnpWebFileCached.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8612F80BCA00D143EA /* JdUpnpWebFileCached.cpp */; };
+		7C0C2FC612F80C5B00D143EA /* JdUpnpWebFileDownloadJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8712F80BCA00D143EA /* JdUpnpWebFileDownloadJob.cpp */; };
+		7C0C2FC712F80C5B00D143EA /* JdUpnpWebFileOnDisk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8812F80BCA00D143EA /* JdUpnpWebFileOnDisk.cpp */; };
+		7C0C2FC812F80C5B00D143EA /* JdUpnpWebFileServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8912F80BCA00D143EA /* JdUpnpWebFileServer.cpp */; };
+		7C0C2FC912F80C5B00D143EA /* JdUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8A12F80BCA00D143EA /* JdUtil.cpp */; };
+		7C0C2FCA12F80C5B00D143EA /* JdUuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2F8B12F80BCA00D143EA /* JdUuid.cpp */; };
+		7C0C309112F80EEB00D143EA /* attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2FFC12F80EEA00D143EA /* attr.c */; };
+		7C0C309212F80EEB00D143EA /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2FFD12F80EEA00D143EA /* document.c */; };
+		7C0C309312F80EEB00D143EA /* element.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C2FFE12F80EEA00D143EA /* element.c */; };
+		7C0C309412F80EEB00D143EA /* ixml.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300212F80EEA00D143EA /* ixml.c */; };
+		7C0C309512F80EEB00D143EA /* ixmldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300312F80EEA00D143EA /* ixmldebug.c */; };
+		7C0C309612F80EEB00D143EA /* ixmlmembuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300412F80EEA00D143EA /* ixmlmembuf.c */; };
+		7C0C309712F80EEB00D143EA /* ixmlparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300512F80EEA00D143EA /* ixmlparser.c */; };
+		7C0C309812F80EEB00D143EA /* namedNodeMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300612F80EEA00D143EA /* namedNodeMap.c */; };
+		7C0C309912F80EEB00D143EA /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300712F80EEA00D143EA /* node.c */; };
+		7C0C309A12F80EEB00D143EA /* nodeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C300812F80EEA00D143EA /* nodeList.c */; };
+		7C0C309B12F80EEB00D143EA /* FreeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C301112F80EEA00D143EA /* FreeList.c */; };
+		7C0C309C12F80EEB00D143EA /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C301212F80EEA00D143EA /* LinkedList.c */; };
+		7C0C309D12F80EEB00D143EA /* ThreadPool.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C301312F80EEA00D143EA /* ThreadPool.c */; };
+		7C0C309E12F80EEB00D143EA /* TimerThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C301412F80EEA00D143EA /* TimerThread.c */; };
+		7C0C309F12F80EEB00D143EA /* ActionComplete.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303312F80EEA00D143EA /* ActionComplete.c */; };
+		7C0C30A012F80EEB00D143EA /* ActionRequest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303412F80EEA00D143EA /* ActionRequest.c */; };
+		7C0C30A112F80EEB00D143EA /* Discovery.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303512F80EEA00D143EA /* Discovery.c */; };
+		7C0C30A212F80EEB00D143EA /* Event.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303612F80EEA00D143EA /* Event.c */; };
+		7C0C30A312F80EEB00D143EA /* EventSubscribe.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303712F80EEA00D143EA /* EventSubscribe.c */; };
+		7C0C30A412F80EEB00D143EA /* FileInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303812F80EEA00D143EA /* FileInfo.c */; };
+		7C0C30A512F80EEB00D143EA /* StateVarComplete.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303912F80EEA00D143EA /* StateVarComplete.c */; };
+		7C0C30A612F80EEB00D143EA /* StateVarRequest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303A12F80EEA00D143EA /* StateVarRequest.c */; };
+		7C0C30A712F80EEB00D143EA /* SubscriptionRequest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303B12F80EEA00D143EA /* SubscriptionRequest.c */; };
+		7C0C30A812F80EEB00D143EA /* upnpapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303C12F80EEA00D143EA /* upnpapi.c */; };
+		7C0C30A912F80EEB00D143EA /* upnpdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303D12F80EEA00D143EA /* upnpdebug.c */; };
+		7C0C30AA12F80EEB00D143EA /* UpnpString.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303E12F80EEA00D143EA /* UpnpString.c */; };
+		7C0C30AB12F80EEB00D143EA /* upnptools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C303F12F80EEA00D143EA /* upnptools.c */; };
+		7C0C30AC12F80EEB00D143EA /* gena_callback2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304112F80EEA00D143EA /* gena_callback2.c */; };
+		7C0C30AD12F80EEB00D143EA /* gena_ctrlpt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304212F80EEA00D143EA /* gena_ctrlpt.c */; };
+		7C0C30AE12F80EEB00D143EA /* gena_device.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304312F80EEA00D143EA /* gena_device.c */; };
+		7C0C30AF12F80EEB00D143EA /* client_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304612F80EEA00D143EA /* client_table.c */; };
+		7C0C30B012F80EEB00D143EA /* ClientSubscription.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304712F80EEA00D143EA /* ClientSubscription.c */; };
+		7C0C30B112F80EEB00D143EA /* miniserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304912F80EEA00D143EA /* miniserver.c */; };
+		7C0C30B212F80EEB00D143EA /* httpparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304C12F80EEA00D143EA /* httpparser.c */; };
+		7C0C30B312F80EEB00D143EA /* httpreadwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304D12F80EEA00D143EA /* httpreadwrite.c */; };
+		7C0C30B412F80EEB00D143EA /* parsetools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304E12F80EEA00D143EA /* parsetools.c */; };
+		7C0C30B512F80EEB00D143EA /* statcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C304F12F80EEA00D143EA /* statcodes.c */; };
+		7C0C30B612F80EEB00D143EA /* webserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305012F80EEA00D143EA /* webserver.c */; };
+		7C0C30B712F80EEB00D143EA /* sock.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305112F80EEA00D143EA /* sock.c */; };
+		7C0C30B812F80EEB00D143EA /* uri.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305312F80EEA00D143EA /* uri.c */; };
+		7C0C30B912F80EEB00D143EA /* service_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305512F80EEA00D143EA /* service_table.c */; };
+		7C0C30BA12F80EEB00D143EA /* membuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305712F80EEA00D143EA /* membuffer.c */; };
+		7C0C30BB12F80EEB00D143EA /* strintmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305812F80EEA00D143EA /* strintmap.c */; };
+		7C0C30BC12F80EEB00D143EA /* upnp_timeout.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305912F80EEA00D143EA /* upnp_timeout.c */; };
+		7C0C30BD12F80EEB00D143EA /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C305A12F80EEA00D143EA /* util.c */; };
+		7C0C30BE12F80EEB00D143EA /* inet_pton.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C307E12F80EEB00D143EA /* inet_pton.c */; };
+		7C0C30BF12F80EEB00D143EA /* soap_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308012F80EEB00D143EA /* soap_common.c */; };
+		7C0C30C012F80EEB00D143EA /* soap_ctrlpt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308112F80EEB00D143EA /* soap_ctrlpt.c */; };
+		7C0C30C112F80EEB00D143EA /* soap_device.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308212F80EEB00D143EA /* soap_device.c */; };
+		7C0C30C212F80EEB00D143EA /* ssdp_ctrlpt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308512F80EEB00D143EA /* ssdp_ctrlpt.c */; };
+		7C0C30C312F80EEB00D143EA /* ssdp_device.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308612F80EEB00D143EA /* ssdp_device.c */; };
+		7C0C30C412F80EEB00D143EA /* ssdp_ResultData.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308712F80EEB00D143EA /* ssdp_ResultData.c */; };
+		7C0C30C512F80EEB00D143EA /* ssdp_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308912F80EEB00D143EA /* ssdp_server.c */; };
+		7C0C30C612F80EEB00D143EA /* urlconfig.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308B12F80EEB00D143EA /* urlconfig.c */; };
+		7C0C30C712F80EEB00D143EA /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308D12F80EEB00D143EA /* md5.c */; };
+		7C0C30C812F80EEB00D143EA /* sysdep.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308E12F80EEB00D143EA /* sysdep.c */; };
+		7C0C30C912F80EEB00D143EA /* uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C308F12F80EEB00D143EA /* uuid.c */; };
+		7C0C30CA12F80EEB00D143EA /* win_dll.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C309012F80EEB00D143EA /* win_dll.c */; };
+		7C0C320212F83AEC00D143EA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0C320112F83AEC00D143EA /* libcrypto.a */; };
+		7C22C5BD12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */; };
+		7C7097E612FFE6A10087E29D /* JdLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C7097E512FFE6A10087E29D /* JdLinkedList.cpp */; };
+		7C709C8113004D770087E29D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0C31FD12F83AA800D143EA /* libssl.a */; };
+		7C70A0F51301568D0087E29D /* JdAwsS3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C70A0F41301568D0087E29D /* JdAwsS3.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C0C2D4C12F7D45900D143EA /* JdAwsS3UpnpHttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAwsS3UpnpHttpConnection.h; sourceTree = "<group>"; };
+		7C0C2D4D12F7D45900D143EA /* JdAwsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAwsContext.h; sourceTree = "<group>"; };
+		7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAwsS3UpnpHttpConnection.cpp; sourceTree = "<group>"; };
+		7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAwsContext.cpp; sourceTree = "<group>"; };
+		7C0C2E8812F80B7900D143EA /* JdAvtClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAvtClient.h; sourceTree = "<group>"; };
+		7C0C2E8912F80B7900D143EA /* JdAvTransService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAvTransService.h; sourceTree = "<group>"; };
+		7C0C2E8A12F80B7900D143EA /* JdConnMgrService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdConnMgrService.h; sourceTree = "<group>"; };
+		7C0C2E8B12F80B7900D143EA /* JdConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdConstants.h; sourceTree = "<group>"; };
+		7C0C2E8C12F80B7900D143EA /* JdControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdControlPoint.h; sourceTree = "<group>"; };
+		7C0C2E8D12F80B7900D143EA /* JdDbgOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdDbgOut.h; sourceTree = "<group>"; };
+		7C0C2E8E12F80B7900D143EA /* JdDecoderIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdDecoderIf.h; sourceTree = "<group>"; };
+		7C0C2E8F12F80B7900D143EA /* JdDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdDescription.h; sourceTree = "<group>"; };
+		7C0C2E9012F80B7900D143EA /* JdDeviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdDeviceBase.h; sourceTree = "<group>"; };
+		7C0C2E9112F80B7900D143EA /* JdDeviceRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdDeviceRoot.h; sourceTree = "<group>"; };
+		7C0C2E9212F80B7900D143EA /* JdEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdEvent.h; sourceTree = "<group>"; };
+		7C0C2E9312F80B7900D143EA /* JdIpcSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdIpcSocket.h; sourceTree = "<group>"; };
+		7C0C2E9412F80B7900D143EA /* JdIXmlUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdIXmlUtil.h; sourceTree = "<group>"; };
+		7C0C2E9512F80B7900D143EA /* JdLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdLib.h; sourceTree = "<group>"; };
+		7C0C2E9612F80B7900D143EA /* JdMimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdMimeTypes.h; sourceTree = "<group>"; };
+		7C0C2E9712F80B7900D143EA /* JdPluginIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdPluginIf.h; sourceTree = "<group>"; };
+		7C0C2E9812F80B7900D143EA /* JdRcClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdRcClient.h; sourceTree = "<group>"; };
+		7C0C2E9912F80B7900D143EA /* JdRenderCtlService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdRenderCtlService.h; sourceTree = "<group>"; };
+		7C0C2E9A12F80B7900D143EA /* JdServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdServiceBase.h; sourceTree = "<group>"; };
+		7C0C2E9B12F80B7900D143EA /* JdUpnpWebFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUpnpWebFile.h; sourceTree = "<group>"; };
+		7C0C2E9C12F80B7900D143EA /* JdUpnpWebFileCached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUpnpWebFileCached.h; sourceTree = "<group>"; };
+		7C0C2E9D12F80B7900D143EA /* JdUpnpWebFileDownloadJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUpnpWebFileDownloadJob.h; sourceTree = "<group>"; };
+		7C0C2E9E12F80B7900D143EA /* JdUpnpWebFileOnDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUpnpWebFileOnDisk.h; sourceTree = "<group>"; };
+		7C0C2E9F12F80B7900D143EA /* JdUpnpWebFileServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUpnpWebFileServer.h; sourceTree = "<group>"; };
+		7C0C2EA012F80B7900D143EA /* JdUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUtil.h; sourceTree = "<group>"; };
+		7C0C2EA112F80B7900D143EA /* JdUuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdUuid.h; sourceTree = "<group>"; };
+		7C0C2F4A12F80B7A00D143EA /* JdArrayDynamicTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdArrayDynamicTest.cpp; sourceTree = "<group>"; };
+		7C0C2F4E12F80B7A00D143EA /* JdIpcSocketTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdIpcSocketTest.cpp; sourceTree = "<group>"; };
+		7C0C2F5112F80B7A00D143EA /* JdStringTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdStringTest.cpp; sourceTree = "<group>"; };
+		7C0C2F7412F80BCA00D143EA /* JdAvtClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAvtClient.cpp; sourceTree = "<group>"; };
+		7C0C2F7512F80BCA00D143EA /* JdAvTransService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAvTransService.cpp; sourceTree = "<group>"; };
+		7C0C2F7612F80BCA00D143EA /* JdConnMgrService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdConnMgrService.cpp; sourceTree = "<group>"; };
+		7C0C2F7712F80BCA00D143EA /* JdConstants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdConstants.cpp; sourceTree = "<group>"; };
+		7C0C2F7812F80BCA00D143EA /* JdControlPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdControlPoint.cpp; sourceTree = "<group>"; };
+		7C0C2F7912F80BCA00D143EA /* JdDecoderIf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdDecoderIf.cpp; sourceTree = "<group>"; };
+		7C0C2F7A12F80BCA00D143EA /* JdDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdDescription.cpp; sourceTree = "<group>"; };
+		7C0C2F7B12F80BCA00D143EA /* JdDeviceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdDeviceBase.cpp; sourceTree = "<group>"; };
+		7C0C2F7C12F80BCA00D143EA /* JdDeviceRoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdDeviceRoot.cpp; sourceTree = "<group>"; };
+		7C0C2F7D12F80BCA00D143EA /* JdEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdEvent.cpp; sourceTree = "<group>"; };
+		7C0C2F7E12F80BCA00D143EA /* JdIpcSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdIpcSocket.cpp; sourceTree = "<group>"; };
+		7C0C2F7F12F80BCA00D143EA /* JdIXmlUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdIXmlUtil.cpp; sourceTree = "<group>"; };
+		7C0C2F8012F80BCA00D143EA /* JdLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdLib.cpp; sourceTree = "<group>"; };
+		7C0C2F8112F80BCA00D143EA /* JdMimeTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdMimeTypes.cpp; sourceTree = "<group>"; };
+		7C0C2F8212F80BCA00D143EA /* JdPluginIf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdPluginIf.cpp; sourceTree = "<group>"; };
+		7C0C2F8312F80BCA00D143EA /* JdRcClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdRcClient.cpp; sourceTree = "<group>"; };
+		7C0C2F8412F80BCA00D143EA /* JdRenderCtlService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdRenderCtlService.cpp; sourceTree = "<group>"; };
+		7C0C2F8512F80BCA00D143EA /* JdServiceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdServiceBase.cpp; sourceTree = "<group>"; };
+		7C0C2F8612F80BCA00D143EA /* JdUpnpWebFileCached.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUpnpWebFileCached.cpp; sourceTree = "<group>"; };
+		7C0C2F8712F80BCA00D143EA /* JdUpnpWebFileDownloadJob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUpnpWebFileDownloadJob.cpp; sourceTree = "<group>"; };
+		7C0C2F8812F80BCA00D143EA /* JdUpnpWebFileOnDisk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUpnpWebFileOnDisk.cpp; sourceTree = "<group>"; };
+		7C0C2F8912F80BCA00D143EA /* JdUpnpWebFileServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUpnpWebFileServer.cpp; sourceTree = "<group>"; };
+		7C0C2F8A12F80BCA00D143EA /* JdUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUtil.cpp; sourceTree = "<group>"; };
+		7C0C2F8B12F80BCA00D143EA /* JdUuid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdUuid.cpp; sourceTree = "<group>"; };
+		7C0C2F8F12F80C1A00D143EA /* JdAwsS3Session */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JdAwsS3Session; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0C2FF212F80EEA00D143EA /* autoconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autoconfig.h; sourceTree = "<group>"; };
+		7C0C2FF512F80EEA00D143EA /* autoconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autoconfig.h; sourceTree = "<group>"; };
+		7C0C2FF612F80EEA00D143EA /* upnpconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpconfig.h; sourceTree = "<group>"; };
+		7C0C2FF912F80EEA00D143EA /* ixml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ixml.h; sourceTree = "<group>"; };
+		7C0C2FFA12F80EEA00D143EA /* ixmldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ixmldebug.h; sourceTree = "<group>"; };
+		7C0C2FFC12F80EEA00D143EA /* attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attr.c; sourceTree = "<group>"; };
+		7C0C2FFD12F80EEA00D143EA /* document.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = document.c; sourceTree = "<group>"; };
+		7C0C2FFE12F80EEA00D143EA /* element.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = element.c; sourceTree = "<group>"; };
+		7C0C300012F80EEA00D143EA /* ixmlmembuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ixmlmembuf.h; sourceTree = "<group>"; };
+		7C0C300112F80EEA00D143EA /* ixmlparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ixmlparser.h; sourceTree = "<group>"; };
+		7C0C300212F80EEA00D143EA /* ixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ixml.c; sourceTree = "<group>"; };
+		7C0C300312F80EEA00D143EA /* ixmldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ixmldebug.c; sourceTree = "<group>"; };
+		7C0C300412F80EEA00D143EA /* ixmlmembuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ixmlmembuf.c; sourceTree = "<group>"; };
+		7C0C300512F80EEA00D143EA /* ixmlparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ixmlparser.c; sourceTree = "<group>"; };
+		7C0C300612F80EEA00D143EA /* namedNodeMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = namedNodeMap.c; sourceTree = "<group>"; };
+		7C0C300712F80EEA00D143EA /* node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		7C0C300812F80EEA00D143EA /* nodeList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nodeList.c; sourceTree = "<group>"; };
+		7C0C300B12F80EEA00D143EA /* FreeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeList.h; sourceTree = "<group>"; };
+		7C0C300C12F80EEA00D143EA /* ithread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ithread.h; sourceTree = "<group>"; };
+		7C0C300D12F80EEA00D143EA /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		7C0C300E12F80EEA00D143EA /* ThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
+		7C0C300F12F80EEA00D143EA /* TimerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerThread.h; sourceTree = "<group>"; };
+		7C0C301112F80EEA00D143EA /* FreeList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FreeList.c; sourceTree = "<group>"; };
+		7C0C301212F80EEA00D143EA /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		7C0C301312F80EEA00D143EA /* ThreadPool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ThreadPool.c; sourceTree = "<group>"; };
+		7C0C301412F80EEA00D143EA /* TimerThread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TimerThread.c; sourceTree = "<group>"; };
+		7C0C301712F80EEA00D143EA /* Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
+		7C0C301812F80EEA00D143EA /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		7C0C301912F80EEA00D143EA /* poison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poison.h; sourceTree = "<group>"; };
+		7C0C301A12F80EEA00D143EA /* UpnpIntTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpIntTypes.h; sourceTree = "<group>"; };
+		7C0C301B12F80EEA00D143EA /* UpnpStdInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpStdInt.h; sourceTree = "<group>"; };
+		7C0C301C12F80EEA00D143EA /* UpnpUniStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpUniStd.h; sourceTree = "<group>"; };
+		7C0C301D12F80EEA00D143EA /* ActionComplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionComplete.h; sourceTree = "<group>"; };
+		7C0C301E12F80EEA00D143EA /* ActionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionRequest.h; sourceTree = "<group>"; };
+		7C0C301F12F80EEA00D143EA /* Discovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discovery.h; sourceTree = "<group>"; };
+		7C0C302012F80EEA00D143EA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		7C0C302112F80EEA00D143EA /* EventSubscribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSubscribe.h; sourceTree = "<group>"; };
+		7C0C302212F80EEA00D143EA /* FileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileInfo.h; sourceTree = "<group>"; };
+		7C0C302312F80EEA00D143EA /* StateVarComplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateVarComplete.h; sourceTree = "<group>"; };
+		7C0C302412F80EEA00D143EA /* StateVarRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateVarRequest.h; sourceTree = "<group>"; };
+		7C0C302512F80EEA00D143EA /* SubscriptionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionRequest.h; sourceTree = "<group>"; };
+		7C0C302612F80EEA00D143EA /* TemplateInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateInclude.h; sourceTree = "<group>"; };
+		7C0C302712F80EEA00D143EA /* TemplateSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateSource.h; sourceTree = "<group>"; };
+		7C0C302812F80EEA00D143EA /* TemplateUndef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateUndef.h; sourceTree = "<group>"; };
+		7C0C302912F80EEA00D143EA /* upnp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnp.h; sourceTree = "<group>"; };
+		7C0C302A12F80EEA00D143EA /* upnpconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpconfig.h; sourceTree = "<group>"; };
+		7C0C302C12F80EEA00D143EA /* upnpdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpdebug.h; sourceTree = "<group>"; };
+		7C0C302D12F80EEA00D143EA /* UpnpGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpGlobal.h; sourceTree = "<group>"; };
+		7C0C302E12F80EEA00D143EA /* UpnpInet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpInet.h; sourceTree = "<group>"; };
+		7C0C302F12F80EEA00D143EA /* UpnpString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpnpString.h; sourceTree = "<group>"; };
+		7C0C303012F80EEA00D143EA /* upnptools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnptools.h; sourceTree = "<group>"; };
+		7C0C303312F80EEA00D143EA /* ActionComplete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ActionComplete.c; sourceTree = "<group>"; };
+		7C0C303412F80EEA00D143EA /* ActionRequest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ActionRequest.c; sourceTree = "<group>"; };
+		7C0C303512F80EEA00D143EA /* Discovery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Discovery.c; sourceTree = "<group>"; };
+		7C0C303612F80EEA00D143EA /* Event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Event.c; sourceTree = "<group>"; };
+		7C0C303712F80EEA00D143EA /* EventSubscribe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EventSubscribe.c; sourceTree = "<group>"; };
+		7C0C303812F80EEA00D143EA /* FileInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FileInfo.c; sourceTree = "<group>"; };
+		7C0C303912F80EEA00D143EA /* StateVarComplete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StateVarComplete.c; sourceTree = "<group>"; };
+		7C0C303A12F80EEA00D143EA /* StateVarRequest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StateVarRequest.c; sourceTree = "<group>"; };
+		7C0C303B12F80EEA00D143EA /* SubscriptionRequest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubscriptionRequest.c; sourceTree = "<group>"; };
+		7C0C303C12F80EEA00D143EA /* upnpapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnpapi.c; sourceTree = "<group>"; };
+		7C0C303D12F80EEA00D143EA /* upnpdebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnpdebug.c; sourceTree = "<group>"; };
+		7C0C303E12F80EEA00D143EA /* UpnpString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UpnpString.c; sourceTree = "<group>"; };
+		7C0C303F12F80EEA00D143EA /* upnptools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnptools.c; sourceTree = "<group>"; };
+		7C0C304112F80EEA00D143EA /* gena_callback2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gena_callback2.c; sourceTree = "<group>"; };
+		7C0C304212F80EEA00D143EA /* gena_ctrlpt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gena_ctrlpt.c; sourceTree = "<group>"; };
+		7C0C304312F80EEA00D143EA /* gena_device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gena_device.c; sourceTree = "<group>"; };
+		7C0C304612F80EEA00D143EA /* client_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_table.c; sourceTree = "<group>"; };
+		7C0C304712F80EEA00D143EA /* ClientSubscription.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ClientSubscription.c; sourceTree = "<group>"; };
+		7C0C304912F80EEA00D143EA /* miniserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniserver.c; sourceTree = "<group>"; };
+		7C0C304C12F80EEA00D143EA /* httpparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpparser.c; sourceTree = "<group>"; };
+		7C0C304D12F80EEA00D143EA /* httpreadwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpreadwrite.c; sourceTree = "<group>"; };
+		7C0C304E12F80EEA00D143EA /* parsetools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parsetools.c; sourceTree = "<group>"; };
+		7C0C304F12F80EEA00D143EA /* statcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = statcodes.c; sourceTree = "<group>"; };
+		7C0C305012F80EEA00D143EA /* webserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = webserver.c; sourceTree = "<group>"; };
+		7C0C305112F80EEA00D143EA /* sock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sock.c; sourceTree = "<group>"; };
+		7C0C305312F80EEA00D143EA /* uri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uri.c; sourceTree = "<group>"; };
+		7C0C305512F80EEA00D143EA /* service_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = service_table.c; sourceTree = "<group>"; };
+		7C0C305712F80EEA00D143EA /* membuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = membuffer.c; sourceTree = "<group>"; };
+		7C0C305812F80EEA00D143EA /* strintmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strintmap.c; sourceTree = "<group>"; };
+		7C0C305912F80EEA00D143EA /* upnp_timeout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnp_timeout.c; sourceTree = "<group>"; };
+		7C0C305A12F80EEA00D143EA /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		7C0C305C12F80EEA00D143EA /* upnputil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnputil.h; sourceTree = "<group>"; };
+		7C0C305D12F80EEA00D143EA /* client_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_table.h; sourceTree = "<group>"; };
+		7C0C305E12F80EEA00D143EA /* ClientSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSubscription.h; sourceTree = "<group>"; };
+		7C0C305F12F80EEA00D143EA /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		7C0C306012F80EEA00D143EA /* gena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gena.h; sourceTree = "<group>"; };
+		7C0C306112F80EEA00D143EA /* gena_ctrlpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gena_ctrlpt.h; sourceTree = "<group>"; };
+		7C0C306212F80EEA00D143EA /* gena_device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gena_device.h; sourceTree = "<group>"; };
+		7C0C306312F80EEA00D143EA /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		7C0C306412F80EEA00D143EA /* gmtdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmtdate.h; sourceTree = "<group>"; };
+		7C0C306512F80EEA00D143EA /* httpparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpparser.h; sourceTree = "<group>"; };
+		7C0C306612F80EEB00D143EA /* httpreadwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpreadwrite.h; sourceTree = "<group>"; };
+		7C0C306712F80EEB00D143EA /* inet_pton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inet_pton.h; sourceTree = "<group>"; };
+		7C0C306812F80EEB00D143EA /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		7C0C306912F80EEB00D143EA /* membuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = membuffer.h; sourceTree = "<group>"; };
+		7C0C306A12F80EEB00D143EA /* miniserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniserver.h; sourceTree = "<group>"; };
+		7C0C306B12F80EEB00D143EA /* netall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netall.h; sourceTree = "<group>"; };
+		7C0C306C12F80EEB00D143EA /* parsetools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsetools.h; sourceTree = "<group>"; };
+		7C0C306D12F80EEB00D143EA /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		7C0C306E12F80EEB00D143EA /* service_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_table.h; sourceTree = "<group>"; };
+		7C0C306F12F80EEB00D143EA /* soaplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soaplib.h; sourceTree = "<group>"; };
+		7C0C307012F80EEB00D143EA /* sock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sock.h; sourceTree = "<group>"; };
+		7C0C307112F80EEB00D143EA /* ssdplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdplib.h; sourceTree = "<group>"; };
+		7C0C307212F80EEB00D143EA /* statcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statcodes.h; sourceTree = "<group>"; };
+		7C0C307312F80EEB00D143EA /* statuscodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statuscodes.h; sourceTree = "<group>"; };
+		7C0C307412F80EEB00D143EA /* strintmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strintmap.h; sourceTree = "<group>"; };
+		7C0C307512F80EEB00D143EA /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		7C0C307612F80EEB00D143EA /* unixutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unixutil.h; sourceTree = "<group>"; };
+		7C0C307712F80EEB00D143EA /* upnp_timeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnp_timeout.h; sourceTree = "<group>"; };
+		7C0C307812F80EEB00D143EA /* upnpapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpapi.h; sourceTree = "<group>"; };
+		7C0C307912F80EEB00D143EA /* uri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uri.h; sourceTree = "<group>"; };
+		7C0C307A12F80EEB00D143EA /* urlconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlconfig.h; sourceTree = "<group>"; };
+		7C0C307B12F80EEB00D143EA /* uuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uuid.h; sourceTree = "<group>"; };
+		7C0C307C12F80EEB00D143EA /* VirtualDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualDir.h; sourceTree = "<group>"; };
+		7C0C307D12F80EEB00D143EA /* webserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webserver.h; sourceTree = "<group>"; };
+		7C0C307E12F80EEB00D143EA /* inet_pton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inet_pton.c; sourceTree = "<group>"; };
+		7C0C308012F80EEB00D143EA /* soap_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soap_common.c; sourceTree = "<group>"; };
+		7C0C308112F80EEB00D143EA /* soap_ctrlpt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soap_ctrlpt.c; sourceTree = "<group>"; };
+		7C0C308212F80EEB00D143EA /* soap_device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soap_device.c; sourceTree = "<group>"; };
+		7C0C308312F80EEB00D143EA /* soaplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soaplib.h; sourceTree = "<group>"; };
+		7C0C308512F80EEB00D143EA /* ssdp_ctrlpt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssdp_ctrlpt.c; sourceTree = "<group>"; };
+		7C0C308612F80EEB00D143EA /* ssdp_device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssdp_device.c; sourceTree = "<group>"; };
+		7C0C308712F80EEB00D143EA /* ssdp_ResultData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssdp_ResultData.c; sourceTree = "<group>"; };
+		7C0C308812F80EEB00D143EA /* ssdp_ResultData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdp_ResultData.h; sourceTree = "<group>"; };
+		7C0C308912F80EEB00D143EA /* ssdp_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssdp_server.c; sourceTree = "<group>"; };
+		7C0C308B12F80EEB00D143EA /* urlconfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = urlconfig.c; sourceTree = "<group>"; };
+		7C0C308D12F80EEB00D143EA /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		7C0C308E12F80EEB00D143EA /* sysdep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sysdep.c; sourceTree = "<group>"; };
+		7C0C308F12F80EEB00D143EA /* uuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uuid.c; sourceTree = "<group>"; };
+		7C0C309012F80EEB00D143EA /* win_dll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = win_dll.c; sourceTree = "<group>"; };
+		7C0C31FD12F83AA800D143EA /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "/Temp/build-output-x86/lib/libssl.a"; sourceTree = "<absolute>"; };
+		7C0C320112F83AEC00D143EA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "/Temp/build-output-x86/lib/libcrypto.a"; sourceTree = "<absolute>"; };
+		7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAwsS3UpnpHttpConnectionTest.cpp; sourceTree = "<group>"; };
+		7C7097E412FFE6910087E29D /* JdLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdLinkedList.h; sourceTree = "<group>"; };
+		7C7097E512FFE6A10087E29D /* JdLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdLinkedList.cpp; sourceTree = "<group>"; };
+		7C70A0C5130154BC0087E29D /* JdAwsS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAwsS3.h; sourceTree = "<group>"; };
+		7C70A0EC1301562F0087E29D /* JdAwsS3Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JdAwsS3Request.h; sourceTree = "<group>"; };
+		7C70A0F41301568D0087E29D /* JdAwsS3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JdAwsS3.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C0C2F8D12F80C1A00D143EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C709C8113004D770087E29D /* libssl.a in Frameworks */,
+				7C0C320212F83AEC00D143EA /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C0C2D2112F7CED900D143EA = {
+			isa = PBXGroup;
+			children = (
+				7C0C320112F83AEC00D143EA /* libcrypto.a */,
+				7C0C31FD12F83AA800D143EA /* libssl.a */,
+				7C0C2FF112F80EEA00D143EA /* pupnp */,
+				7C0C2E6A12F80B7800D143EA /* common */,
+				7C0C2D2B12F7CEED00D143EA /* jdaws */,
+				7C0C2F9012F80C1A00D143EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C0C2D2B12F7CEED00D143EA /* jdaws */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2D2C12F7CEED00D143EA /* include */,
+				7C0C2D2E12F7CEED00D143EA /* src */,
+				7C0C2D2F12F7CEED00D143EA /* tests */,
+			);
+			name = jdaws;
+			path = ../..;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C0C2D2C12F7CEED00D143EA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7C70A0EC1301562F0087E29D /* JdAwsS3Request.h */,
+				7C70A0C5130154BC0087E29D /* JdAwsS3.h */,
+				7C0C2D4C12F7D45900D143EA /* JdAwsS3UpnpHttpConnection.h */,
+				7C0C2D4D12F7D45900D143EA /* JdAwsContext.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7C0C2D2E12F7CEED00D143EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C70A0F41301568D0087E29D /* JdAwsS3.cpp */,
+				7C0C2D4E12F7D46300D143EA /* JdAwsS3UpnpHttpConnection.cpp */,
+				7C0C2D4F12F7D46300D143EA /* JdAwsContext.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C0C2D2F12F7CEED00D143EA /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C22C5BC12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		7C0C2E6A12F80B7800D143EA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2E8712F80B7900D143EA /* include */,
+				7C0C2EB212F80B7900D143EA /* src */,
+				7C0C2F4212F80B7A00D143EA /* tests */,
+			);
+			name = common;
+			path = ../../../common;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C0C2E8712F80B7900D143EA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7C7097E412FFE6910087E29D /* JdLinkedList.h */,
+				7C0C2E8812F80B7900D143EA /* JdAvtClient.h */,
+				7C0C2E8912F80B7900D143EA /* JdAvTransService.h */,
+				7C0C2E8A12F80B7900D143EA /* JdConnMgrService.h */,
+				7C0C2E8B12F80B7900D143EA /* JdConstants.h */,
+				7C0C2E8C12F80B7900D143EA /* JdControlPoint.h */,
+				7C0C2E8D12F80B7900D143EA /* JdDbgOut.h */,
+				7C0C2E8E12F80B7900D143EA /* JdDecoderIf.h */,
+				7C0C2E8F12F80B7900D143EA /* JdDescription.h */,
+				7C0C2E9012F80B7900D143EA /* JdDeviceBase.h */,
+				7C0C2E9112F80B7900D143EA /* JdDeviceRoot.h */,
+				7C0C2E9212F80B7900D143EA /* JdEvent.h */,
+				7C0C2E9312F80B7900D143EA /* JdIpcSocket.h */,
+				7C0C2E9412F80B7900D143EA /* JdIXmlUtil.h */,
+				7C0C2E9512F80B7900D143EA /* JdLib.h */,
+				7C0C2E9612F80B7900D143EA /* JdMimeTypes.h */,
+				7C0C2E9712F80B7900D143EA /* JdPluginIf.h */,
+				7C0C2E9812F80B7900D143EA /* JdRcClient.h */,
+				7C0C2E9912F80B7900D143EA /* JdRenderCtlService.h */,
+				7C0C2E9A12F80B7900D143EA /* JdServiceBase.h */,
+				7C0C2E9B12F80B7900D143EA /* JdUpnpWebFile.h */,
+				7C0C2E9C12F80B7900D143EA /* JdUpnpWebFileCached.h */,
+				7C0C2E9D12F80B7900D143EA /* JdUpnpWebFileDownloadJob.h */,
+				7C0C2E9E12F80B7900D143EA /* JdUpnpWebFileOnDisk.h */,
+				7C0C2E9F12F80B7900D143EA /* JdUpnpWebFileServer.h */,
+				7C0C2EA012F80B7900D143EA /* JdUtil.h */,
+				7C0C2EA112F80B7900D143EA /* JdUuid.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7C0C2EB212F80B7900D143EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C7097E512FFE6A10087E29D /* JdLinkedList.cpp */,
+				7C0C2F7412F80BCA00D143EA /* JdAvtClient.cpp */,
+				7C0C2F7512F80BCA00D143EA /* JdAvTransService.cpp */,
+				7C0C2F7612F80BCA00D143EA /* JdConnMgrService.cpp */,
+				7C0C2F7712F80BCA00D143EA /* JdConstants.cpp */,
+				7C0C2F7812F80BCA00D143EA /* JdControlPoint.cpp */,
+				7C0C2F7912F80BCA00D143EA /* JdDecoderIf.cpp */,
+				7C0C2F7A12F80BCA00D143EA /* JdDescription.cpp */,
+				7C0C2F7B12F80BCA00D143EA /* JdDeviceBase.cpp */,
+				7C0C2F7C12F80BCA00D143EA /* JdDeviceRoot.cpp */,
+				7C0C2F7D12F80BCA00D143EA /* JdEvent.cpp */,
+				7C0C2F7E12F80BCA00D143EA /* JdIpcSocket.cpp */,
+				7C0C2F7F12F80BCA00D143EA /* JdIXmlUtil.cpp */,
+				7C0C2F8012F80BCA00D143EA /* JdLib.cpp */,
+				7C0C2F8112F80BCA00D143EA /* JdMimeTypes.cpp */,
+				7C0C2F8212F80BCA00D143EA /* JdPluginIf.cpp */,
+				7C0C2F8312F80BCA00D143EA /* JdRcClient.cpp */,
+				7C0C2F8412F80BCA00D143EA /* JdRenderCtlService.cpp */,
+				7C0C2F8512F80BCA00D143EA /* JdServiceBase.cpp */,
+				7C0C2F8612F80BCA00D143EA /* JdUpnpWebFileCached.cpp */,
+				7C0C2F8712F80BCA00D143EA /* JdUpnpWebFileDownloadJob.cpp */,
+				7C0C2F8812F80BCA00D143EA /* JdUpnpWebFileOnDisk.cpp */,
+				7C0C2F8912F80BCA00D143EA /* JdUpnpWebFileServer.cpp */,
+				7C0C2F8A12F80BCA00D143EA /* JdUtil.cpp */,
+				7C0C2F8B12F80BCA00D143EA /* JdUuid.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C0C2F4212F80B7A00D143EA /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2F4A12F80B7A00D143EA /* JdArrayDynamicTest.cpp */,
+				7C0C2F4E12F80B7A00D143EA /* JdIpcSocketTest.cpp */,
+				7C0C2F5112F80B7A00D143EA /* JdStringTest.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		7C0C2F9012F80C1A00D143EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2F8F12F80C1A00D143EA /* JdAwsS3Session */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C0C2FF112F80EEA00D143EA /* pupnp */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FF212F80EEA00D143EA /* autoconfig.h */,
+				7C0C2FF312F80EEA00D143EA /* build */,
+				7C0C2FF712F80EEA00D143EA /* ixml */,
+				7C0C300912F80EEA00D143EA /* threadutil */,
+				7C0C301512F80EEA00D143EA /* upnp */,
+			);
+			name = pupnp;
+			path = ../../../pupnp;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C0C2FF312F80EEA00D143EA /* build */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FF412F80EEA00D143EA /* inc */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		7C0C2FF412F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FF512F80EEA00D143EA /* autoconfig.h */,
+				7C0C2FF612F80EEA00D143EA /* upnpconfig.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C2FF712F80EEA00D143EA /* ixml */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FF812F80EEA00D143EA /* inc */,
+				7C0C2FFB12F80EEA00D143EA /* src */,
+			);
+			path = ixml;
+			sourceTree = "<group>";
+		};
+		7C0C2FF812F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FF912F80EEA00D143EA /* ixml.h */,
+				7C0C2FFA12F80EEA00D143EA /* ixmldebug.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C2FFB12F80EEA00D143EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C2FFC12F80EEA00D143EA /* attr.c */,
+				7C0C2FFD12F80EEA00D143EA /* document.c */,
+				7C0C2FFE12F80EEA00D143EA /* element.c */,
+				7C0C2FFF12F80EEA00D143EA /* inc */,
+				7C0C300212F80EEA00D143EA /* ixml.c */,
+				7C0C300312F80EEA00D143EA /* ixmldebug.c */,
+				7C0C300412F80EEA00D143EA /* ixmlmembuf.c */,
+				7C0C300512F80EEA00D143EA /* ixmlparser.c */,
+				7C0C300612F80EEA00D143EA /* namedNodeMap.c */,
+				7C0C300712F80EEA00D143EA /* node.c */,
+				7C0C300812F80EEA00D143EA /* nodeList.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C0C2FFF12F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C300012F80EEA00D143EA /* ixmlmembuf.h */,
+				7C0C300112F80EEA00D143EA /* ixmlparser.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C300912F80EEA00D143EA /* threadutil */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C300A12F80EEA00D143EA /* inc */,
+				7C0C301012F80EEA00D143EA /* src */,
+			);
+			path = threadutil;
+			sourceTree = "<group>";
+		};
+		7C0C300A12F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C300B12F80EEA00D143EA /* FreeList.h */,
+				7C0C300C12F80EEA00D143EA /* ithread.h */,
+				7C0C300D12F80EEA00D143EA /* LinkedList.h */,
+				7C0C300E12F80EEA00D143EA /* ThreadPool.h */,
+				7C0C300F12F80EEA00D143EA /* TimerThread.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C301012F80EEA00D143EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C301112F80EEA00D143EA /* FreeList.c */,
+				7C0C301212F80EEA00D143EA /* LinkedList.c */,
+				7C0C301312F80EEA00D143EA /* ThreadPool.c */,
+				7C0C301412F80EEA00D143EA /* TimerThread.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C0C301512F80EEA00D143EA /* upnp */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C301612F80EEA00D143EA /* inc */,
+				7C0C303112F80EEA00D143EA /* src */,
+			);
+			path = upnp;
+			sourceTree = "<group>";
+		};
+		7C0C301612F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C301712F80EEA00D143EA /* Callback.h */,
+				7C0C301812F80EEA00D143EA /* list.h */,
+				7C0C301912F80EEA00D143EA /* poison.h */,
+				7C0C301A12F80EEA00D143EA /* UpnpIntTypes.h */,
+				7C0C301B12F80EEA00D143EA /* UpnpStdInt.h */,
+				7C0C301C12F80EEA00D143EA /* UpnpUniStd.h */,
+				7C0C301D12F80EEA00D143EA /* ActionComplete.h */,
+				7C0C301E12F80EEA00D143EA /* ActionRequest.h */,
+				7C0C301F12F80EEA00D143EA /* Discovery.h */,
+				7C0C302012F80EEA00D143EA /* Event.h */,
+				7C0C302112F80EEA00D143EA /* EventSubscribe.h */,
+				7C0C302212F80EEA00D143EA /* FileInfo.h */,
+				7C0C302312F80EEA00D143EA /* StateVarComplete.h */,
+				7C0C302412F80EEA00D143EA /* StateVarRequest.h */,
+				7C0C302512F80EEA00D143EA /* SubscriptionRequest.h */,
+				7C0C302612F80EEA00D143EA /* TemplateInclude.h */,
+				7C0C302712F80EEA00D143EA /* TemplateSource.h */,
+				7C0C302812F80EEA00D143EA /* TemplateUndef.h */,
+				7C0C302912F80EEA00D143EA /* upnp.h */,
+				7C0C302A12F80EEA00D143EA /* upnpconfig.h */,
+				7C0C302C12F80EEA00D143EA /* upnpdebug.h */,
+				7C0C302D12F80EEA00D143EA /* UpnpGlobal.h */,
+				7C0C302E12F80EEA00D143EA /* UpnpInet.h */,
+				7C0C302F12F80EEA00D143EA /* UpnpString.h */,
+				7C0C303012F80EEA00D143EA /* upnptools.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C303112F80EEA00D143EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C303212F80EEA00D143EA /* api */,
+				7C0C304012F80EEA00D143EA /* gena */,
+				7C0C304412F80EEA00D143EA /* genlib */,
+				7C0C305B12F80EEA00D143EA /* inc */,
+				7C0C307E12F80EEB00D143EA /* inet_pton.c */,
+				7C0C307F12F80EEB00D143EA /* soap */,
+				7C0C308412F80EEB00D143EA /* ssdp */,
+				7C0C308A12F80EEB00D143EA /* urlconfig */,
+				7C0C308C12F80EEB00D143EA /* uuid */,
+				7C0C309012F80EEB00D143EA /* win_dll.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C0C303212F80EEA00D143EA /* api */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C303312F80EEA00D143EA /* ActionComplete.c */,
+				7C0C303412F80EEA00D143EA /* ActionRequest.c */,
+				7C0C303512F80EEA00D143EA /* Discovery.c */,
+				7C0C303612F80EEA00D143EA /* Event.c */,
+				7C0C303712F80EEA00D143EA /* EventSubscribe.c */,
+				7C0C303812F80EEA00D143EA /* FileInfo.c */,
+				7C0C303912F80EEA00D143EA /* StateVarComplete.c */,
+				7C0C303A12F80EEA00D143EA /* StateVarRequest.c */,
+				7C0C303B12F80EEA00D143EA /* SubscriptionRequest.c */,
+				7C0C303C12F80EEA00D143EA /* upnpapi.c */,
+				7C0C303D12F80EEA00D143EA /* upnpdebug.c */,
+				7C0C303E12F80EEA00D143EA /* UpnpString.c */,
+				7C0C303F12F80EEA00D143EA /* upnptools.c */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		7C0C304012F80EEA00D143EA /* gena */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304112F80EEA00D143EA /* gena_callback2.c */,
+				7C0C304212F80EEA00D143EA /* gena_ctrlpt.c */,
+				7C0C304312F80EEA00D143EA /* gena_device.c */,
+			);
+			path = gena;
+			sourceTree = "<group>";
+		};
+		7C0C304412F80EEA00D143EA /* genlib */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304512F80EEA00D143EA /* client_table */,
+				7C0C304812F80EEA00D143EA /* miniserver */,
+				7C0C304A12F80EEA00D143EA /* net */,
+				7C0C305412F80EEA00D143EA /* service_table */,
+				7C0C305612F80EEA00D143EA /* util */,
+			);
+			path = genlib;
+			sourceTree = "<group>";
+		};
+		7C0C304512F80EEA00D143EA /* client_table */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304612F80EEA00D143EA /* client_table.c */,
+				7C0C304712F80EEA00D143EA /* ClientSubscription.c */,
+			);
+			path = client_table;
+			sourceTree = "<group>";
+		};
+		7C0C304812F80EEA00D143EA /* miniserver */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304912F80EEA00D143EA /* miniserver.c */,
+			);
+			path = miniserver;
+			sourceTree = "<group>";
+		};
+		7C0C304A12F80EEA00D143EA /* net */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304B12F80EEA00D143EA /* http */,
+				7C0C305112F80EEA00D143EA /* sock.c */,
+				7C0C305212F80EEA00D143EA /* uri */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		7C0C304B12F80EEA00D143EA /* http */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C304C12F80EEA00D143EA /* httpparser.c */,
+				7C0C304D12F80EEA00D143EA /* httpreadwrite.c */,
+				7C0C304E12F80EEA00D143EA /* parsetools.c */,
+				7C0C304F12F80EEA00D143EA /* statcodes.c */,
+				7C0C305012F80EEA00D143EA /* webserver.c */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		7C0C305212F80EEA00D143EA /* uri */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C305312F80EEA00D143EA /* uri.c */,
+			);
+			path = uri;
+			sourceTree = "<group>";
+		};
+		7C0C305412F80EEA00D143EA /* service_table */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C305512F80EEA00D143EA /* service_table.c */,
+			);
+			path = service_table;
+			sourceTree = "<group>";
+		};
+		7C0C305612F80EEA00D143EA /* util */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C305712F80EEA00D143EA /* membuffer.c */,
+				7C0C305812F80EEA00D143EA /* strintmap.c */,
+				7C0C305912F80EEA00D143EA /* upnp_timeout.c */,
+				7C0C305A12F80EEA00D143EA /* util.c */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		7C0C305B12F80EEA00D143EA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C305C12F80EEA00D143EA /* upnputil.h */,
+				7C0C305D12F80EEA00D143EA /* client_table.h */,
+				7C0C305E12F80EEA00D143EA /* ClientSubscription.h */,
+				7C0C305F12F80EEA00D143EA /* config.h */,
+				7C0C306012F80EEA00D143EA /* gena.h */,
+				7C0C306112F80EEA00D143EA /* gena_ctrlpt.h */,
+				7C0C306212F80EEA00D143EA /* gena_device.h */,
+				7C0C306312F80EEA00D143EA /* global.h */,
+				7C0C306412F80EEA00D143EA /* gmtdate.h */,
+				7C0C306512F80EEA00D143EA /* httpparser.h */,
+				7C0C306612F80EEB00D143EA /* httpreadwrite.h */,
+				7C0C306712F80EEB00D143EA /* inet_pton.h */,
+				7C0C306812F80EEB00D143EA /* md5.h */,
+				7C0C306912F80EEB00D143EA /* membuffer.h */,
+				7C0C306A12F80EEB00D143EA /* miniserver.h */,
+				7C0C306B12F80EEB00D143EA /* netall.h */,
+				7C0C306C12F80EEB00D143EA /* parsetools.h */,
+				7C0C306D12F80EEB00D143EA /* server.h */,
+				7C0C306E12F80EEB00D143EA /* service_table.h */,
+				7C0C306F12F80EEB00D143EA /* soaplib.h */,
+				7C0C307012F80EEB00D143EA /* sock.h */,
+				7C0C307112F80EEB00D143EA /* ssdplib.h */,
+				7C0C307212F80EEB00D143EA /* statcodes.h */,
+				7C0C307312F80EEB00D143EA /* statuscodes.h */,
+				7C0C307412F80EEB00D143EA /* strintmap.h */,
+				7C0C307512F80EEB00D143EA /* sysdep.h */,
+				7C0C307612F80EEB00D143EA /* unixutil.h */,
+				7C0C307712F80EEB00D143EA /* upnp_timeout.h */,
+				7C0C307812F80EEB00D143EA /* upnpapi.h */,
+				7C0C307912F80EEB00D143EA /* uri.h */,
+				7C0C307A12F80EEB00D143EA /* urlconfig.h */,
+				7C0C307B12F80EEB00D143EA /* uuid.h */,
+				7C0C307C12F80EEB00D143EA /* VirtualDir.h */,
+				7C0C307D12F80EEB00D143EA /* webserver.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		7C0C307F12F80EEB00D143EA /* soap */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C308012F80EEB00D143EA /* soap_common.c */,
+				7C0C308112F80EEB00D143EA /* soap_ctrlpt.c */,
+				7C0C308212F80EEB00D143EA /* soap_device.c */,
+				7C0C308312F80EEB00D143EA /* soaplib.h */,
+			);
+			path = soap;
+			sourceTree = "<group>";
+		};
+		7C0C308412F80EEB00D143EA /* ssdp */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C308512F80EEB00D143EA /* ssdp_ctrlpt.c */,
+				7C0C308612F80EEB00D143EA /* ssdp_device.c */,
+				7C0C308712F80EEB00D143EA /* ssdp_ResultData.c */,
+				7C0C308812F80EEB00D143EA /* ssdp_ResultData.h */,
+				7C0C308912F80EEB00D143EA /* ssdp_server.c */,
+			);
+			path = ssdp;
+			sourceTree = "<group>";
+		};
+		7C0C308A12F80EEB00D143EA /* urlconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C308B12F80EEB00D143EA /* urlconfig.c */,
+			);
+			path = urlconfig;
+			sourceTree = "<group>";
+		};
+		7C0C308C12F80EEB00D143EA /* uuid */ = {
+			isa = PBXGroup;
+			children = (
+				7C0C308D12F80EEB00D143EA /* md5.c */,
+				7C0C308E12F80EEB00D143EA /* sysdep.c */,
+				7C0C308F12F80EEB00D143EA /* uuid.c */,
+			);
+			path = uuid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C0C2F8E12F80C1A00D143EA /* JdAwsS3SessionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C0C2F9412F80C1B00D143EA /* Build configuration list for PBXNativeTarget "JdAwsS3SessionTest" */;
+			buildPhases = (
+				7C0C2F8C12F80C1A00D143EA /* Sources */,
+				7C0C2F8D12F80C1A00D143EA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JdAwsS3SessionTest;
+			productName = JdAwsS3Session;
+			productReference = 7C0C2F8F12F80C1A00D143EA /* JdAwsS3Session */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C0C2D2312F7CED900D143EA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7C0C2D2612F7CED900D143EA /* Build configuration list for PBXProject "jdaws" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 7C0C2D2112F7CED900D143EA;
+			productRefGroup = 7C0C2F9012F80C1A00D143EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C0C2F8E12F80C1A00D143EA /* JdAwsS3SessionTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C0C2F8C12F80C1A00D143EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0C2F9712F80C4300D143EA /* JdAwsS3UpnpHttpConnection.cpp in Sources */,
+				7C0C2F9812F80C4300D143EA /* JdAwsContext.cpp in Sources */,
+				7C0C2FB312F80C5B00D143EA /* JdAvtClient.cpp in Sources */,
+				7C0C2FB412F80C5B00D143EA /* JdAvTransService.cpp in Sources */,
+				7C0C2FB512F80C5B00D143EA /* JdConnMgrService.cpp in Sources */,
+				7C0C2FB612F80C5B00D143EA /* JdConstants.cpp in Sources */,
+				7C0C2FB712F80C5B00D143EA /* JdControlPoint.cpp in Sources */,
+				7C0C2FB812F80C5B00D143EA /* JdDecoderIf.cpp in Sources */,
+				7C0C2FB912F80C5B00D143EA /* JdDescription.cpp in Sources */,
+				7C0C2FBA12F80C5B00D143EA /* JdDeviceBase.cpp in Sources */,
+				7C0C2FBB12F80C5B00D143EA /* JdDeviceRoot.cpp in Sources */,
+				7C0C2FBC12F80C5B00D143EA /* JdEvent.cpp in Sources */,
+				7C0C2FBD12F80C5B00D143EA /* JdIpcSocket.cpp in Sources */,
+				7C0C2FBE12F80C5B00D143EA /* JdIXmlUtil.cpp in Sources */,
+				7C0C2FBF12F80C5B00D143EA /* JdLib.cpp in Sources */,
+				7C0C2FC012F80C5B00D143EA /* JdMimeTypes.cpp in Sources */,
+				7C0C2FC112F80C5B00D143EA /* JdPluginIf.cpp in Sources */,
+				7C0C2FC212F80C5B00D143EA /* JdRcClient.cpp in Sources */,
+				7C0C2FC312F80C5B00D143EA /* JdRenderCtlService.cpp in Sources */,
+				7C0C2FC412F80C5B00D143EA /* JdServiceBase.cpp in Sources */,
+				7C0C2FC512F80C5B00D143EA /* JdUpnpWebFileCached.cpp in Sources */,
+				7C0C2FC612F80C5B00D143EA /* JdUpnpWebFileDownloadJob.cpp in Sources */,
+				7C0C2FC712F80C5B00D143EA /* JdUpnpWebFileOnDisk.cpp in Sources */,
+				7C0C2FC812F80C5B00D143EA /* JdUpnpWebFileServer.cpp in Sources */,
+				7C0C2FC912F80C5B00D143EA /* JdUtil.cpp in Sources */,
+				7C0C2FCA12F80C5B00D143EA /* JdUuid.cpp in Sources */,
+				7C0C309112F80EEB00D143EA /* attr.c in Sources */,
+				7C0C309212F80EEB00D143EA /* document.c in Sources */,
+				7C0C309312F80EEB00D143EA /* element.c in Sources */,
+				7C0C309412F80EEB00D143EA /* ixml.c in Sources */,
+				7C0C309512F80EEB00D143EA /* ixmldebug.c in Sources */,
+				7C0C309612F80EEB00D143EA /* ixmlmembuf.c in Sources */,
+				7C0C309712F80EEB00D143EA /* ixmlparser.c in Sources */,
+				7C0C309812F80EEB00D143EA /* namedNodeMap.c in Sources */,
+				7C0C309912F80EEB00D143EA /* node.c in Sources */,
+				7C0C309A12F80EEB00D143EA /* nodeList.c in Sources */,
+				7C0C309B12F80EEB00D143EA /* FreeList.c in Sources */,
+				7C0C309C12F80EEB00D143EA /* LinkedList.c in Sources */,
+				7C0C309D12F80EEB00D143EA /* ThreadPool.c in Sources */,
+				7C0C309E12F80EEB00D143EA /* TimerThread.c in Sources */,
+				7C0C309F12F80EEB00D143EA /* ActionComplete.c in Sources */,
+				7C0C30A012F80EEB00D143EA /* ActionRequest.c in Sources */,
+				7C0C30A112F80EEB00D143EA /* Discovery.c in Sources */,
+				7C0C30A212F80EEB00D143EA /* Event.c in Sources */,
+				7C0C30A312F80EEB00D143EA /* EventSubscribe.c in Sources */,
+				7C0C30A412F80EEB00D143EA /* FileInfo.c in Sources */,
+				7C0C30A512F80EEB00D143EA /* StateVarComplete.c in Sources */,
+				7C0C30A612F80EEB00D143EA /* StateVarRequest.c in Sources */,
+				7C0C30A712F80EEB00D143EA /* SubscriptionRequest.c in Sources */,
+				7C0C30A812F80EEB00D143EA /* upnpapi.c in Sources */,
+				7C0C30A912F80EEB00D143EA /* upnpdebug.c in Sources */,
+				7C0C30AA12F80EEB00D143EA /* UpnpString.c in Sources */,
+				7C0C30AB12F80EEB00D143EA /* upnptools.c in Sources */,
+				7C0C30AC12F80EEB00D143EA /* gena_callback2.c in Sources */,
+				7C0C30AD12F80EEB00D143EA /* gena_ctrlpt.c in Sources */,
+				7C0C30AE12F80EEB00D143EA /* gena_device.c in Sources */,
+				7C0C30AF12F80EEB00D143EA /* client_table.c in Sources */,
+				7C0C30B012F80EEB00D143EA /* ClientSubscription.c in Sources */,
+				7C0C30B112F80EEB00D143EA /* miniserver.c in Sources */,
+				7C0C30B212F80EEB00D143EA /* httpparser.c in Sources */,
+				7C0C30B312F80EEB00D143EA /* httpreadwrite.c in Sources */,
+				7C0C30B412F80EEB00D143EA /* parsetools.c in Sources */,
+				7C0C30B512F80EEB00D143EA /* statcodes.c in Sources */,
+				7C0C30B612F80EEB00D143EA /* webserver.c in Sources */,
+				7C0C30B712F80EEB00D143EA /* sock.c in Sources */,
+				7C0C30B812F80EEB00D143EA /* uri.c in Sources */,
+				7C0C30B912F80EEB00D143EA /* service_table.c in Sources */,
+				7C0C30BA12F80EEB00D143EA /* membuffer.c in Sources */,
+				7C0C30BB12F80EEB00D143EA /* strintmap.c in Sources */,
+				7C0C30BC12F80EEB00D143EA /* upnp_timeout.c in Sources */,
+				7C0C30BD12F80EEB00D143EA /* util.c in Sources */,
+				7C0C30BE12F80EEB00D143EA /* inet_pton.c in Sources */,
+				7C0C30BF12F80EEB00D143EA /* soap_common.c in Sources */,
+				7C0C30C012F80EEB00D143EA /* soap_ctrlpt.c in Sources */,
+				7C0C30C112F80EEB00D143EA /* soap_device.c in Sources */,
+				7C0C30C212F80EEB00D143EA /* ssdp_ctrlpt.c in Sources */,
+				7C0C30C312F80EEB00D143EA /* ssdp_device.c in Sources */,
+				7C0C30C412F80EEB00D143EA /* ssdp_ResultData.c in Sources */,
+				7C0C30C512F80EEB00D143EA /* ssdp_server.c in Sources */,
+				7C0C30C612F80EEB00D143EA /* urlconfig.c in Sources */,
+				7C0C30C712F80EEB00D143EA /* md5.c in Sources */,
+				7C0C30C812F80EEB00D143EA /* sysdep.c in Sources */,
+				7C0C30C912F80EEB00D143EA /* uuid.c in Sources */,
+				7C0C30CA12F80EEB00D143EA /* win_dll.c in Sources */,
+				7C22C5BD12FE61A3006281A6 /* JdAwsS3UpnpHttpConnectionTest.cpp in Sources */,
+				7C7097E612FFE6A10087E29D /* JdLinkedList.cpp in Sources */,
+				7C70A0F51301568D0087E29D /* JdAwsS3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C0C2D2412F7CED900D143EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7C0C2D2512F7CED900D143EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		7C0C2F9212F80C1B00D143EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "/tmp/build-output-x86/include";
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Temp/build-output-x86/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"/Temp/build-output-x86/lib\"";
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-DDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PREBINDING = NO;
+				PRODUCT_NAME = JdAwsS3Session;
+				VERSION_INFO_FILE = "";
+			};
+			name = Debug;
+		};
+		7C0C2F9312F80C1B00D143EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "/tmp/build-output-x86/include";
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Temp/build-output-x86/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"/Temp/build-output-x86/lib\"";
+				OTHER_CFLAGS = "-Wall";
+				PREBINDING = NO;
+				PRODUCT_NAME = JdAwsS3Session;
+				VERSION_INFO_FILE = "";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C0C2D2612F7CED900D143EA /* Build configuration list for PBXProject "jdaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0C2D2412F7CED900D143EA /* Debug */,
+				7C0C2D2512F7CED900D143EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C0C2F9412F80C1B00D143EA /* Build configuration list for PBXNativeTarget "JdAwsS3SessionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0C2F9212F80C1B00D143EA /* Debug */,
+				7C0C2F9312F80C1B00D143EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C0C2D2312F7CED900D143EA /* Project object */;
+}

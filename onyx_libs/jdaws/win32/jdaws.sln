@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jdaws", "jdaws.vcxproj", "{4C19C347-405C-4713-961F-02BF0F1003C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestJdAws", "TestJdAws\TestJdAws.vcxproj", "{57DCBECD-907E-45D5-BB3C-DF6E599B13C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Debug|Win32.Build.0 = Debug|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Release|Win32.ActiveCfg = Release|Win32
+		{4C19C347-405C-4713-961F-02BF0F1003C6}.Release|Win32.Build.0 = Release|Win32
+		{57DCBECD-907E-45D5-BB3C-DF6E599B13C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57DCBECD-907E-45D5-BB3C-DF6E599B13C3}.Debug|Win32.Build.0 = Debug|Win32
+		{57DCBECD-907E-45D5-BB3C-DF6E599B13C3}.Release|Win32.ActiveCfg = Release|Win32
+		{57DCBECD-907E-45D5-BB3C-DF6E599B13C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

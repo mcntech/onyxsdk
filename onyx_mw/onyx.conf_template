@@ -1,0 +1,88 @@
+[output1]
+stream_name=channel1
+
+[rtsppublish]
+application=live
+user=onyx_test
+password=onyx_test
+host=192.168.0.112
+rtsp_port=1935
+application=live
+local_port=59300
+
+[display]
+layout=3
+use_mosaic=1
+rows=2
+columns=2
+windows=3
+display_id=0
+width=1920
+height=1080
+encode=1
+
+[layout1]
+windows=3
+window1=0 270 960 540 6
+window2=960 270 960 540 6
+window3=0 810 1920 270 6
+
+[layout2]
+windows=3
+window1=0 0 960 810 6
+window2=960 0 960 810 6
+window3=0 810 1920 270 6
+
+[layout3]
+windows=3
+window1=0 0 1920 810 6
+window2=1200 220 640 480 6
+window3=0 810 1920 270 6
+
+[encode]
+ENCODER_INPUT_BUFFER_COUNT=4
+ENCODER_OUTPUT_BUFFER_COUNT=4
+width=1280
+height=720
+
+[decode]
+DECODER_INPUT_BUFFER_COUNT=3
+DECODER_OUTPUT_BUFFER_COUNT=8
+
+[debug]
+A8_DEBUG_LEVEL=4
+M3_DEBUG_LEVEL=1
+#USE_DEI_SCALER_ALWAYS=1
+
+[session1]
+#input=udp://:53001
+input=rtsp://192.168.0.107/v01
+width=1280
+height=720
+framerate=30
+deinterlace=0
+program=1
+
+[session2]
+#input=udp://:53002
+input=rtsp://192.168.0.110/v03
+width=640
+height=480
+framerate=30
+deinterlace=0
+program=1
+
+[session3]
+#input=udp://:53003
+#input=rtsp://192.168.0.107/v03
+input=/home/root/onyx/adv_test1.ts
+width=1440
+height=144
+framerate=30
+program=1
+
+[session4]
+#input=udp://:53004
+#input=rtsp://192.168.0.108/v03
+width=640
+height=480
